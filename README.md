@@ -271,9 +271,7 @@ If you use this platform in your research, please cite:
 ## 🔗 Related Resources
 
 - [MNE-Python Documentation](https://mne.tools/)
-- [CAM-ICU Assessment Tool](https://www.icudelirium.org/medical-professionals/delirium/monitoring-tools)
 - [LORETA Source Localization](http://www.uzh.ch/keyinst/loreta.htm)
-- [ICU Delirium Research](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6089226/)
 
 ## 💡 Support
 
