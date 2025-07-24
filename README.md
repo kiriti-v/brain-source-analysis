@@ -1,5 +1,7 @@
 # Brain Source Localization Analysis Platform
 
+### Note: The datasets alluded to in this repo/README are merely the test case datasets, and eventually the project should be adaptable to any dataset or appropriate research question.
+
 ## Overview
 
 A comprehensive web-based platform for analyzing EEG/MEG source localization data with advanced statistical analysis capabilities. Specifically designed for **CAM ICU (Confusion Assessment Method for ICU)** studies examining the effects of different auditory interventions on brain activity in critically ill patients.
