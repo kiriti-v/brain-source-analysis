@@ -1,0 +1,124 @@
+# Brain Source Localization Analysis Platform - Git Ignore
+# ========================================================
+
+# Data files - DO NOT commit research data
+music_cache/
+data/
+mne_cache/
+dmn_results/
+results/
+music_results/
+*.stc
+*.fif
+*.pkl
+
+# Generated brain images and outputs
+brain_images/
+custom_brain_images/
+test_brain_images/
+exported_data/
+batch_exports/
+presentation_output/
+
+# Virtual environments
+brain_analysis_env/
+venv/
+env/
+.env
+
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Analysis outputs and logs
+*.log
+*.json
+test_analysis.json
+analysis_results/
+ui_state.json
+brain_explorer_state.json
+
+# Generated images and screenshots  
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.bmp
+*.tiff
+
+# Office documents and presentations
+*.pptx
+*.docx
+*.pdf
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyCharm
+.idea/
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Docker
+.dockerignore
+
+# Temporary files
+*.tmp
+*.temp
+start_brain_analyzer.sh
+
+# Large research files
+*.edf
+*.csv
+
+# Keep these important files (override patterns above)
+!requirements.txt
+!participant_mapping.csv
+!README.md
+!LICENSE
+!.gitignore 
